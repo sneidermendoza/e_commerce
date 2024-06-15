@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'product.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ecommerce',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'sINJImiALwjhwJhqxHmlCJeChrdcDDUa',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '22041',
     }
 }
 
