@@ -103,8 +103,10 @@ docker-compose up --build
 
 Esto construirá las imágenes Docker y levantará los contenedores. Las aplicaciones estarán disponibles en los siguientes puertos:
 
-[http://localhost:8000](http://localhost:8000)
+OrdesServices en http://localhost:8000
+--------------------------------------------
 ProductServices en http://localhost:8001
+-----------------------------------------
 5. Acceso a la Documentación de la API
 Una vez que las aplicaciones estén en funcionamiento, puedes acceder a la documentación de Swagger en los siguientes enlaces:
 
