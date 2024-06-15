@@ -119,7 +119,12 @@ En estas interfaces, podrás utilizar todas las APIs creadas, incluyendo las ope
 > [!WARNING]
 > Excepción en OrdesServices
 
-En OrdesServices, hay una API especial en la ruta /ordes/create_order_from_array/ que requiere una estructura específica para crear una orden:
+En OrdesServices, hay una API especial en la ruta 
+
+> /ordes/create_order_from_array/ 
+
+que requiere una estructura específica para crear una orden:
+~~~
 {
   "products": [
     {"product_id": int, "quantity": int},
@@ -127,6 +132,7 @@ En OrdesServices, hay una API especial en la ruta /ordes/create_order_from_array
     {"product_id": int, "quantity": int}
   ]
 }
+~~~
 
 
 ¡Gracias por usar este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en el repositorio.
