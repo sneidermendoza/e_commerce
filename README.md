@@ -107,13 +107,16 @@ OrdesServices en http://localhost:8000
 --------------------------------------------
 ProductServices en http://localhost:8001
 -----------------------------------------
-5. Acceso a la Documentación de la API
+# 5. Acceso a la Documentación de la API
 Una vez que las aplicaciones estén en funcionamiento, puedes acceder a la documentación de Swagger en los siguientes enlaces:
 
 OrdesServices: http://localhost:8000
+--------------------------------------------
 ProductServices: http://localhost:8001
+--------------------------------------------
 En estas interfaces, podrás utilizar todas las APIs creadas, incluyendo las operaciones para crear, listar, editar y eliminar productos y órdenes.
 
+> _[!NOTE]_
 Excepción en OrdesServices
 En OrdesServices, hay una API especial en la ruta /ordes/create_order_from_array/ que requiere una estructura específica para crear una orden:
 {
