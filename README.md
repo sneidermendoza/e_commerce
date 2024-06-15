@@ -1,5 +1,5 @@
 # e_commerce
- prueba tecnica de creacion de dos microservicios para un e_commerce
+###### prueba tecnica de creacion de dos microservicios para un e_commerce
 
 
 # Instalación del Proyecto
@@ -8,10 +8,10 @@
 
 Primero, clona el repositorio en tu máquina local:
 
-[git clone https://github.com/tu_usuario/e_commerce.git
-cd e_commerce]
+[E_commerce](https://github.com/sneidermendoza/e_commerce.git)
 
 ## 2. Estructura del Proyecto
+~~~
 e_commerce/
 │
 ├── OrdesServices/
@@ -33,6 +33,7 @@ e_commerce/
 ├── .gitattributes
 ├── readme.md
 └── docker-compose.yml
+~~~
 
 *** Configuración de la Base de Datos
 Tienes dos opciones: usar la base de datos configurada por defecto que está en la nube y ya está poblada con datos de productos y órdenes, o configurar una base de datos local.
