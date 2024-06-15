@@ -44,7 +44,7 @@ Usar la Base de Datos en la Nube
 La base de datos por defecto ya está configurada y contiene datos de productos y órdenes. No necesitas hacer ningún cambio adicional para utilizarla.
 
 #### Opción 2: 
-Configurar una Base de Datos Local
+###### Configurar una Base de Datos Local
 Si decides configurar una base de datos local, sigue estos pasos:
 
 Abre el archivo settings.py en la carpeta raíz de cada proyecto (ProductServices y OrdesServices).
