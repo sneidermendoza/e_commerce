@@ -35,17 +35,20 @@ e_commerce/
 └── docker-compose.yml
 ~~~
 
-*** Configuración de la Base de Datos
+# Configuración de la Base de Datos
+
 Tienes dos opciones: usar la base de datos configurada por defecto que está en la nube y ya está poblada con datos de productos y órdenes, o configurar una base de datos local.
 
-Opción 1: Usar la Base de Datos en la Nube
+#### Opción 1: 
+[!important]
+Usar la Base de Datos en la Nube
 La base de datos por defecto ya está configurada y contiene datos de productos y órdenes. No necesitas hacer ningún cambio adicional para utilizarla.
 
 Opción 2: Configurar una Base de Datos Local
 Si decides configurar una base de datos local, sigue estos pasos:
 
 Abre el archivo settings.py en la carpeta raíz de cada proyecto (ProductServices y OrdesServices).
-Configura las variables de la base de datos como se muestra a continuación: ***
+Configura las variables de la base de datos como se muestra a continuación:
 
 DATABASES = {
     'default': {
