@@ -79,9 +79,9 @@ python manage.py migrate
 # 4. Ejecución del Proyecto
 Tienes dos opciones para ejecutar el proyecto: manualmente usando entornos virtuales o utilizando Docker.
 
-Opción 1: Ejecutar Manualmente
+## Opción 1: Ejecutar Manualmente
 Activa el entorno virtual y ejecuta los requisitos:
-# En la terminal de ProductServices
+#### En la terminal de ProductServices
 source venv/bin/activate
 pip install -r requirements.txt
 python manage.py runserver 8000
