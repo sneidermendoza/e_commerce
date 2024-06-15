@@ -82,25 +82,28 @@ Tienes dos opciones para ejecutar el proyecto: manualmente usando entornos virtu
 ## Opción 1: Ejecutar Manualmente
 Activa el entorno virtual y ejecuta los requisitos:
 #### En la terminal de ProductServices
+~~~
 source venv/bin/activate
 pip install -r requirements.txt
 python manage.py runserver 8000
-
+~~~
 # En la terminal de OrdesServices
+~~~
 source venv/bin/activate
 pip install -r requirements.txt
 python manage.py runserver 8001
+~~~
 
-Opción 2: Utilizar Docker
+## Opción 2: Utilizar Docker
 Asegúrate de tener Docker instalado y ejecutando.
 Navega a la raíz del proyecto (e_commerce) y ejecuta el siguiente comando:
-
+~~~
 docker-compose up --build
-
+~~~
 
 Esto construirá las imágenes Docker y levantará los contenedores. Las aplicaciones estarán disponibles en los siguientes puertos:
 
-OrdesServices en http://localhost:8000
+[http://localhost:8000](http://localhost:8000)
 ProductServices en http://localhost:8001
 5. Acceso a la Documentación de la API
 Una vez que las aplicaciones estén en funcionamiento, puedes acceder a la documentación de Swagger en los siguientes enlaces:
