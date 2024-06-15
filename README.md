@@ -116,7 +116,7 @@ ProductServices: http://localhost:8001
 --------------------------------------------
 En estas interfaces, podrás utilizar todas las APIs creadas, incluyendo las operaciones para crear, listar, editar y eliminar productos y órdenes.
 
-> [!NOTE]
+> [!WARNING]
 > Excepción en OrdesServices
 
 En OrdesServices, hay una API especial en la ruta /ordes/create_order_from_array/ que requiere una estructura específica para crear una orden:
