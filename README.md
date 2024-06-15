@@ -135,4 +135,4 @@ que requiere una estructura específica para crear una orden:
 ~~~
 
 
-¡Gracias por usar este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en el repositorio.
+> ¡Gracias por usar este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en el repositorio.
